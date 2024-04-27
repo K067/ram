@@ -1,3 +1,7 @@
+A React web application for browsing characters from the Rick and Morty database.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
