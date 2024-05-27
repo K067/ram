@@ -8,6 +8,7 @@
 
 .buttons {
     width: 65px;
+    margin-right: auto;
 }
 
 .arrows {
@@ -41,72 +42,62 @@
     .arrow {
         width: 30px;
     }
+}
 
-    @media(max-width:1500px) {}
+@media (max-width: 1440px) {
+    .arrow {
+        width: 25px;
+    }
+}
 
-    @media (max-width: 1440px) {
-        .arrow {
-            width: 25px;
-        }
+@media (max-width: 1320px) {
 
-        @media (max-width: 1386px) {
+    .arrow {
+        width: 20px;
+    }
 
-            @media (max-width: 1320px) {
+    .cross {
+        width: 40px;
+    }
+}
 
-                .arrow {
-                    width: 20px;
-                }
+@media (max-width: 992px) {
+    .buttons {
+        display: none;
+    }
 
-                .cross {
-                    width: 40px;
-                }
+    .arrow {
+        width: 25px;
+    }
 
-                @media (max-width: 1202px) {
-                    @media (max-width: 1160px) {
-                        @media (max-width: 992px) {
-                            .buttons {
-                                display: none;
-                            }
+    .arrows {
+        position: unset;
+        gap: 35px;
+    }
+}
 
-                            .arrow {
-                                width: 25px;
-                            }
+@media (max-width: 515px) {
+    .arrow {
+        width: 20px;
+    }
 
-                            .arrows {
-                                position: unset;
-                                gap: 35px;
-                            }
+    .cross {
+        width: 35px;
+    }
+}
 
-                            @media (max-width: 515px) {
-                                .arrow {
-                                    width: 20px;
-                                }
+@media (max-width: 480px) {
+    .arrow {
+        width: 20px;
+    }
 
-                                .cross {
-                                    width: 35px;
-                                }
+    .arrows {
+        gap: 20px;
+    }
+}
 
-                                @media (max-width: 480px) {
-                                    .arrow {
-                                        width: 20px;
-                                    }
-
-                                    .arrows {
-                                        gap: 20px;
-                                    }
-
-                                    @media (max-width: 367px) {
-                                        .arrow {
-                                            width: 15px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
-            }
-        }
+@media (max-width: 367px) {
+    .arrow {
+        width: 15px;
     }
 }
