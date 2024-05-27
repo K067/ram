@@ -67,209 +67,196 @@
     font-size: 20px;
 }
 
-@media(max-width: 1830px) {
 
-    @media(max-width: 1770px) {
-        .overlay {
-            width: 1180px;
-        }
+@media(max-width: 1770px) {
+    .overlay {
+        width: 1180px;
+    }
 
-        .extended {
-            width: 955px;
-        }
+    .extended {
+        width: 955px;
+    }
 
-        .extended-absolute {
-            width: 280px;
-        }
+    .extended-absolute {
+        width: 280px;
+    }
 
-        .gs-extended {
-            font-size: 18px;
-        }
+    .gs-extended {
+        font-size: 18px;
+    }
+}
 
-        @media(max-width: 1715px) {
+@media(max-width: 1630px) {
+    .overlay {
+        width: 1060px;
+    }
 
-            @media(max-width: 1630px) {
-                .overlay {
-                    width: 1060px;
-                }
+    .extended {
+        width: 835px;
+    }
 
-                .extended {
-                    width: 835px;
-                }
+    .extended-absolute {
+        width: 250px;
+    }
 
-                .extended-absolute {
-                    width: 250px;
-                }
+    .gs-extended {
+        font-size: 16px;
+    }
+}
 
-                .gs-extended {
-                    font-size: 16px;
-                }
+@media (max-width:1500px) {
+    .overlay {
+        width: 935px;
+    }
 
-                @media(max-width: 1566px) {
+    .extended {
+        width: 710px;
+    }
+
+    .extended-absolute {
+        width: 215px;
+    }
+
+    .gs-extended {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .extended-absolute {
+        width: 215px;
+    }
+}
 
 
-                    @media(max-width: 1535px) {
+@media (max-width: 1386px) {
+    .extended-absolute {
+        width: 195px;
+    }
+}
 
-                        @media (max-width:1500px) {
+@media (max-width: 1320px) {
+    .extended {
+        width: 615px;
+    }
 
-                            @media (max-width: 1440px) {
-                                .extended-absolute {
-                                    width: 215px;
-                                }
-                            }
+    .overlay {
+        width: 826px;
+    }
 
-                            .overlay {
-                                width: 935px;
-                            }
+    .gs-extended {
+        font-size: 12px;
+    }
+}
 
-                            .extended {
-                                width: 710px;
-                            }
+@media (max-width:1203px) {
+    .extended {
+        width: 515px;
+    }
 
-                            .extended-absolute {
-                                width: 215px;
-                            }
+    .overlay {
+        width: 811px;
+    }
+}
 
-                            .gs-extended {
-                                font-size: 15px;
-                            }
+@media (max-width: 1160px) {
+    .extended {
+        width: 595px;
+    }
 
-                            @media (max-width: 1386px) {
-                                .extended-absolute {
-                                    width: 195px;
-                                }
+    .info {
+        margin-top: 10px;
+        flex-direction: column !important;
+        gap: 10px !important;
+        align-items: flex-start;
+    }
 
-                                @media (max-width: 1320px) {
-                                    .extended {
-                                        width: 615px;
-                                    }
+    .overlay {
+        width: 825px;
+    }
+}
 
-                                    .overlay {
-                                        width: 826px;
-                                    }
+@media (max-width: 1150px) {
+    .extended {
+        width: 405px;
+    }
 
-                                    .gs-extended {
-                                        font-size: 12px;
-                                    }
+    .overlay {
+        width: 615px;
+    }
+}
 
-                                    @media (max-width:1203px) {
-                                        .extended {
-                                            width: 515px;
-                                        }
+@media (max-width: 992px) {
+    .overlay {
+        background: none;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+    }
 
-                                        .overlay {
-                                            width: 811px;
-                                        }
+    .status-modal {
+        flex-direction: row !important;
+        gap: 5px !important;
+    }
 
-                                        @media (max-width: 1160px) {
-                                            .extended {
-                                                width: 595px;
-                                            }
+    .extended {
+        position: relative !important;
+        top: 70px;
+        left: 0;
+        width: 785px;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+        overflow-y: scroll;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px -1px, rgba(0, 0, 0, 0.16) 0px 2px 4px;
 
-                                            .info {
-                                                margin-top: 10px;
-                                                flex-direction: column !important;
-                                                gap: 10px !important;
-                                                align-items: flex-start;
-                                            }
+    }
 
-                                            .overlay {
-                                                width: 825px;
-                                            }
+    .extended-absolute {
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    }
 
-                                            @media (max-width: 1150px) {
-                                                .extended {
-                                                    width: 405px;
-                                                }
+    .character-modal {
+        border-radius: 20px;
+    }
 
-                                                .overlay {
-                                                    width: 615px;
-                                                }
+    .name-modal {
+        font-size: 26px !important;
+    }
 
-                                                @media (max-width: 992px) {
-                                                    .overlay {
-                                                        background: none;
-                                                        height: 100%;
-                                                        width: 100%;
-                                                        left: 0;
-                                                        z-index: 1;
-                                                        display: flex;
-                                                        justify-content: center;
-                                                    }
+    .info-modal {
+        align-items: center;
+    }
 
-                                                    .status-modal {
-                                                        flex-direction: row !important;
-                                                        gap: 5px !important;
-                                                    }
+    .gs-extended {
+        font-size: 20px;
+    }
+}
 
-                                                    .extended {
-                                                        position: relative !important;
-                                                        top: 70px;
-                                                        left: 0;
-                                                        width: 785px;
-                                                        flex-direction: column;
-                                                        align-items: center;
-                                                        height: 850px;
-                                                        overflow-y: scroll;
-                                                        padding: 20px;
-                                                        box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 6px -1px, rgba(0, 0, 0, 0.16) 0px 2px 4px;
+@media (max-width: 780px) {
+    .extended {
+        width: 515px;
+    }
 
-                                                    }
+    .gs-extended {
+        font-size: 18px;
+    }
+}
 
-                                                    .extended-absolute {
-                                                        display: flex;
-                                                        width: 70%;
-                                                        flex-direction: column;
-                                                        align-items: center;
-                                                        border-radius: 20px;
-                                                    }
+@media (max-width: 420px) {
+    .name-modal {
+        font-size: 20px !important;
+    }
 
-                                                    .character-modal {
-                                                        border-radius: 20px;
-                                                    }
-
-                                                    .name-modal {
-                                                        font-size: 26px !important;
-                                                    }
-
-                                                    .info-modal {
-                                                        align-items: center;
-                                                    }
-
-                                                    .gs-extended {
-                                                        font-size: 20px;
-                                                    }
-
-                                                    @media (max-width: 780px) {
-                                                        .extended {
-                                                            width: 515px;
-                                                        }
-
-                                                        .gs-extended {
-                                                            font-size: 18px;
-                                                        }
-
-                                                        @media (max-width: 420px) {
-                                                            .name-modal {
-                                                                font-size: 20px !important;
-                                                            }
-
-                                                            .gs-extended {
-                                                                font-size: 16px;
-                                                            }
-                                                        }
-
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    .gs-extended {
+        font-size: 16px;
     }
 }
