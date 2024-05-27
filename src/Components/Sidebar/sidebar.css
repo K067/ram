@@ -74,6 +74,7 @@
 
 .filter-list {
     overflow-y: auto;
+    overflow-x: hidden;
     max-height: 510px;
 }
 
@@ -166,139 +167,129 @@ input:focus {
     gap: 10px;
 }
 
-@media(max-width: 1770px) {
-    @media(max-width: 1630px) {
-        [type="search"] {
-            max-width: 205px;
+@media(max-width: 1630px) {
+    [type="search"] {
+        max-width: 205px;
 
-        }
+    }
 
-        .break {
-            width: 70px;
-        }
+    .break {
+        width: 70px;
+    }
 
-        .nav-container {
-            max-width: 280px;
-        }
+    .nav-container {
+        max-width: 280px;
+    }
 
-        .nav {
-            width: 280px;
-        }
+    .nav {
+        width: 280px;
+    }
 
-        .filter-title {
-            font-size: 22px;
-        }
+    .filter-title {
+        font-size: 22px;
+    }
+}
 
-        @media (max-width: 1500px) {
-            .nav {
-                width: 250px;
-            }
+@media (max-width: 1500px) {
+    .nav {
+        width: 250px;
+    }
 
-            .nav-container {
-                max-width: 250px;
-            }
+    .nav-container {
+        max-width: 250px;
+    }
+}
 
-            @media (max-width: 1440px) {
-                .filter-title {
-                    font-size: 20px;
-                }
+@media (max-width: 1440px) {
+    .filter-title {
+        font-size: 20px;
+    }
+}
 
-                @media (max-width: 1386px) {
+@media (max-width: 1320px) {
 
-                    @media (max-width: 1320px) {
+    .filter-title {
+        font-size: 16px;
+    }
+}
 
-                        .filter-title {
-                            font-size: 16px;
-                        }
+@media (max-width: 992px) {
+    .nav {
+        display: none;
+    }
 
-                        @media (max-width: 1200px) {
-                            @media (max-width: 1160px) {
-                                @media (max-width: 992px) {
-                                    .nav {
-                                        display: none;
-                                    }
+    .nav-title {
+        font-size: 30px;
 
-                                    .nav-title {
-                                        font-size: 30px;
+    }
 
-                                    }
+    .nav-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-                                    .nav-mobile {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                    }
+    .filter-wrapper {
+        height: 100vh;
+        padding: 20px;
+    }
 
-                                    .filter-wrapper {
-                                        height: 100vh;
-                                        padding: 20px;
-                                    }
+    .search-bar {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
-                                    .search-bar {
-                                        margin-top: 0;
-                                        margin-bottom: 0;
-                                    }
+    .sb-mobile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
 
-                                    .sb-mobile {
-                                        width: 100%;
-                                        display: flex;
-                                        justify-content: center;
-                                        height: auto;
-                                    }
+    .filter-title {
+        font-size: 26px;
+    }
+}
 
-                                    .filter-title {
-                                        font-size: 26px;
-                                    }
+@media (max-width: 660px) {
+    .mob-input {
+        min-width: 250px !important;
+    }
+}
 
-                                    @media (max-width: 660px) {
-                                        .mob-input {
-                                            min-width: 250px !important;
-                                        }
+@media (max-width: 515px) {
+    .menu-call-btn {
+        width: 65px;
+    }
 
-                                        @media (max-width: 515px) {
-                                            .menu-call-btn {
-                                                width: 65px;
-                                            }
+    .filter-title {
+        font-size: 20px;
+    }
+}
 
-                                            .filter-title {
-                                                font-size: 20px;
-                                            }
+@media (max-width: 480px) {
+    .mob-input {
+        min-width: 150px !important;
+    }
 
-                                            @media (max-width: 480px) {
-                                                .mob-input {
-                                                    min-width: 150px !important;
-                                                }
+    .menu-call-btn {
+        width: 50px;
+    }
+}
 
-                                                .menu-call-btn {
-                                                    width: 50px;
-                                                }
+@media (max-width: 400px) {
+    .nav-title {
+        font-size: 26px;
+    }
+}
 
-                                                @media (max-width: 400px) {
-                                                    .nav-title {
-                                                        font-size: 26px;
-                                                    }
+@media (max-width: 367px) {
+    .menu-call-btn {
+        width: 40px;
+    }
 
-                                                    @media (max-width: 367px) {
-                                                        .menu-call-btn {
-                                                            width: 40px;
-                                                        }
-
-                                                        .mob-input {
-                                                            max-width: 180px !important;
-                                                            height: 30px !important;
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
-                }
-            }
-        }
+    .mob-input {
+        max-width: 180px !important;
+        height: 30px !important;
     }
 }
